@@ -1,5 +1,5 @@
 <template>
-   <div>
+   <div id="main-comp">
       <MainBlue/>
       <MainAboutUs/>
    </div>
@@ -19,5 +19,7 @@ import MainAboutUs from './main_aboutus/MainAboutUs.vue'
 </script>
 
 <style lang="scss" scoped>
-
+#main-comp{
+height: 60vh;
+}
 </style>

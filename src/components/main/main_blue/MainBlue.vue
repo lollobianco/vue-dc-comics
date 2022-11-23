@@ -60,7 +60,7 @@ export default {
 <style lang="scss" scoped>
 .blue-bg {
   background-color: #0282f9;
-  height: 150px;
+  height: 15vh;
   color: white;
 }
 

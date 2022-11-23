@@ -43,7 +43,7 @@ ul{
    width: 100%;
    border: 1px solid #0282F9;
    position: absolute;
-   bottom: -66px;
+   bottom: -52px;
 }
 
 </style>

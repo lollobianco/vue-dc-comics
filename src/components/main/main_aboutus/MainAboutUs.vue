@@ -68,11 +68,12 @@
    background-image: url(../../../assets/img/footer-bg.jpg);
    background-repeat: no-repeat;
    background-size: cover;
-   height: 370px;
+   height: 45vh;
 }
 
 #sized-container{
    width: 75%;
+   height: 100%;
    margin: 0 auto;
    display: flex;
    align-items: center;
@@ -101,10 +102,9 @@ ul{
 }
 
 #img-container{
-   width: 370px;
-   height: 370px;
+   height: 100%;
    img{
-      width: 100%;
+      height: 100%;
    }
 }
 </style>

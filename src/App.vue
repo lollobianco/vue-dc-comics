@@ -2,19 +2,22 @@
   <div id="app">
     <HeaderComp/>
     <MainComp/>
+    <FooterComp/>
   </div>
 </template>
 
 <script>
 import HeaderComp from './components/header/header_white/HeaderComp.vue'
 import MainComp from './components/main/MainComp.vue'
+import FooterComp from './components/footer/FooterComp.vue'
 
 
 export default {
   name: 'App',
   components: {
     HeaderComp,
-    MainComp
+    MainComp,
+    FooterComp
   }
 }
 </script>
@@ -27,6 +30,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  height: 100vh;
 }
 
 body{

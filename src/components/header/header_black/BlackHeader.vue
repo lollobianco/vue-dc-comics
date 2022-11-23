@@ -17,8 +17,8 @@ export default {
 
 <style lang="scss" scoped>
 #header-container-black {
-  height: 150px;
   width: 75%;
+  // padding: 10px 0;
   background-color: #1c1c1c;
   margin: 0 auto;
   display: flex;
@@ -32,7 +32,10 @@ export default {
 }
 
 .dark{
-   background-color: #1c1c1c;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  background-color: #1c1c1c;
 }
 
 </style>

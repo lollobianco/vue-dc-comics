@@ -1,5 +1,5 @@
 <template>
-   <div>
+   <div id="header-comp">
       
       <WhiteHeader/>
       <BlackHeader/>
@@ -23,5 +23,7 @@ import BlackHeader from '../header_black/BlackHeader.vue'
 </script>
 
 <style lang="scss" scoped>
-
+#header-comp{
+   height: 30vh;
+}
 </style>

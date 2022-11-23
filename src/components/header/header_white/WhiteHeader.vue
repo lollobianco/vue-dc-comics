@@ -22,7 +22,7 @@ import NavHeader from './NavHeader.vue'
 <style lang="scss" scoped>
 
 #header-container{
-   height: 150px;
+   height: 15vh;
    width: 75%;
    margin: 0 auto;
    display: flex;
