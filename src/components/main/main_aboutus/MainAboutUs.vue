@@ -48,8 +48,8 @@
                </div>
             </div>
 
-            <div id="img-container">
-              <img id="blue-logo" src="../../../assets/img/dc-logo-bg.png" alt="logo">
+            <div class="img-container">
+              <!-- <img id="blue-logo" src="../../../assets/img/dc-logo-bg.png" alt="logo"> -->
             </div>
             
          </div>
@@ -68,21 +68,20 @@
    background-image: url(../../../assets/img/footer-bg.jpg);
    background-repeat: no-repeat;
    background-size: cover;
-   height: 45vh;
 }
 
 #sized-container{
    width: 75%;
-   height: 100%;
    margin: 0 auto;
    display: flex;
-   align-items: center;
    justify-content: space-between;
    color: #706D71;
-   text-align: left;
+   
 }
 
 ul{
+
+   margin-left: 30px;
 
    li{
       list-style-type: none;
@@ -92,6 +91,7 @@ ul{
 
 .flex{
    display: flex;
+   padding: 40px 0;
 }
 
 .title{
@@ -101,10 +101,12 @@ ul{
    color: white;
 }
 
-#img-container{
-   height: 100%;
-   img{
-      height: 100%;
-   }
+.img-container{
+   background-image: url("../../../assets/img/dc-logo-bg.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 40%;
 }
+
 </style>

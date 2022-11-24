@@ -31,13 +31,13 @@ ul{
       font-size: 0.8rem;
       font-weight: 700;
       margin: 0 10px;
-      padding: 60px 0;
+      padding: 50px 0;
    }
 }
 
 .active{
    color: #0282F9;
-   border-bottom: 2px solid #0282F9;
+   border-bottom: 3px solid #0282F9;
 }
 
 

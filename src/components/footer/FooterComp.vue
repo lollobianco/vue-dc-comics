@@ -29,7 +29,7 @@
 
 #footer-comp{
    width: 100%;
-   height: 10vh;
+   padding: 30px 0;
    background-color: #303030;
    display: flex;
    align-items: center;
