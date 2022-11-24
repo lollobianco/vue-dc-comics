@@ -2,28 +2,26 @@
    <div id="header-comp">
       
       <WhiteHeader/>
-      <BlackHeader/>
+      <JumboHeader/>
       
    </div>
 </template>
 
 <script>
 import WhiteHeader from './WhiteHeader.vue'
-import BlackHeader from '../header_black/BlackHeader.vue'
+import JumboHeader from '../header_jumbo/JumboHeader.vue'
 
 
    export default {
       name: 'HeaderComp',
       components: {
          WhiteHeader,
-         BlackHeader
+         JumboHeader
          
       }
    }
 </script>
 
 <style lang="scss" scoped>
-#header-comp{
-   height: 30vh;
-}
+
 </style>

@@ -25,25 +25,20 @@
 
 ul{
    display: flex;
+   margin: 0;
    li{
       list-style-type: none;
       font-size: 0.8rem;
-      margin: 0 10px;
       font-weight: 700;
+      margin: 0 10px;
+      padding: 60px 0;
    }
 }
 
 .active{
    color: #0282F9;
-   position: relative;
-   height: 100%;
+   border-bottom: 2px solid #0282F9;
 }
 
-.underline{
-   width: 100%;
-   border: 1px solid #0282F9;
-   position: absolute;
-   bottom: -52px;
-}
 
 </style>
