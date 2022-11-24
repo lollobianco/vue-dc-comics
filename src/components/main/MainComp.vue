@@ -1,9 +1,17 @@
 <template>
    <div id="main-comp" class="bg-dark">
 
-      <div class="flex">
-         <DcCard v-for="(element, index) in products" :key="index" :productDetails="element"/>
+      <div id="card-section">
+
+         <div class="flex">
+            <DcCard v-for="(element, index) in products" :key="index" :productDetails="element"/>
+         </div>
+
+         <div class="flex"><button id="load-more">LOAD MORE</button></div>
+
       </div>
+
+      
       
       <MainBlue/>
       <MainAboutUs/>
@@ -104,6 +112,20 @@ import DcCard from './main_cards/DcCard.vue'
 </script>
 
 <style lang="scss" scoped>
+
+#card-section{
+   padding: 30px 0;
+}
+
+#load-more{
+   padding: 15px 60px;
+   border: 0;
+   background-color: #0282F9;
+   color: white;
+   font-weight: 800;
+   font-size: 1rem;
+   margin-top: 30px;
+}
 
 .flex{
    display: flex;
